@@ -1,1 +1,1 @@
-gocsoldier.githab.io
+сайт
