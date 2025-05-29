@@ -2,17 +2,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // Находим все элементы строк и элемент курсора
     const lines = document.querySelectorAll('.line');
     const cursor = document.getElementById('cursor');
-    // const container = document.getElementById('text-container'); // Контейнер может понадобиться для более сложных сценариев
+    // const container = document.getElementById('text-container'); // Контейнер 
 
     let currentLineIndex = 0; // Индекс текущей строки
-    const lineDelay = 1000; // Задержка перед появлением следующей строки (2000 мс = 2 секунды)
+    const lineDelay = 1000; // Задержка перед появлением следующей строки 
 
     // Изначально убедимся, что курсор виден (он скрыт только анимацией)
     cursor.style.display = 'inline-block';
 
     // Функция для показа одной строки и планирования следующей
     function showLine(index) {
-        // Проверяем, не вышли ли за пределы массива строк
+        // не вышли ли за пределы массива строк
         if (index < lines.length) {
             const currentLine = lines[index];
 
