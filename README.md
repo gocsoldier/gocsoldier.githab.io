@@ -1,1 +1,0 @@
-# gocsoldier.githab.io
